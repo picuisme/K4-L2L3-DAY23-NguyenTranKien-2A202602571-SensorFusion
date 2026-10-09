@@ -1,0 +1,142 @@
+{
+  "segment": "training_segment-1005081002024129653_5313_150_5333_150_with_camera_labels.tfrecord",
+  "frames": [
+    0,
+    198
+  ],
+  "seed": 0,
+  "lidar_only": {
+    "rmse": 0.1503227094069944,
+    "matches": 502,
+    "sum_sq_err": 11.34365231565676,
+    "ghost_track_frames": 0,
+    "missed_gt_frames": 239,
+    "mean_confirmed_tracks": 2.522613065326633
+  },
+  "fused_no_offset": {
+    "rmse": 0.13586679671553112,
+    "matches": 502,
+    "sum_sq_err": 9.266812797769207,
+    "ghost_track_frames": 0,
+    "missed_gt_frames": 239,
+    "mean_confirmed_tracks": 2.522613065326633
+  },
+  "camera_effect_on_one_track": {
+    "track": 10,
+    "frames_compared": 101,
+    "rmse_lidar": 0.19542637989675457,
+    "rmse_fused": 0.14028145489358246,
+    "camera_updates": 83,
+    "mean_abs_gamma_u_px": 12.592186765746405,
+    "mean_abs_gamma_v_px": 10.386246713371735,
+    "mean_correction_m": 0.14355797718630312
+  },
+  "front_image_figure": true,
+  "calibration_sweep": [
+    {
+      "yaw_offset_deg": 0.0,
+      "rmse": 0.13586679671553112,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 533,
+      "camera_updates": 509,
+      "mean_gamma_u_px": -11.887052337835305,
+      "mean_abs_gamma_u_px": 12.90292954165263,
+      "mean_abs_gamma_v_px": 9.51532286909451,
+      "mean_mhd_sq": 2.248887099019935,
+      "chi2_gate_2d": 10.596634733096073
+    },
+    {
+      "yaw_offset_deg": 0.1,
+      "rmse": 0.14515388820820385,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 534,
+      "camera_updates": 506,
+      "mean_gamma_u_px": -15.359274580677573,
+      "mean_abs_gamma_u_px": 16.165850669782444,
+      "mean_abs_gamma_v_px": 9.521402897533514,
+      "mean_mhd_sq": 3.0356794561332197,
+      "chi2_gate_2d": 10.596634733096073
+    },
+    {
+      "yaw_offset_deg": 0.25,
+      "rmse": 0.1731728307717965,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 534,
+      "camera_updates": 486,
+      "mean_gamma_u_px": -19.993522106806438,
+      "mean_abs_gamma_u_px": 20.872026483127794,
+      "mean_abs_gamma_v_px": 9.521176629928252,
+      "mean_mhd_sq": 4.546929894332962,
+      "chi2_gate_2d": 10.596634733096073
+    },
+    {
+      "yaw_offset_deg": 0.5,
+      "rmse": 0.2111549421924606,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 534,
+      "camera_updates": 322,
+      "mean_gamma_u_px": -26.895672848322427,
+      "mean_abs_gamma_u_px": 27.740911352061783,
+      "mean_abs_gamma_v_px": 8.16455408403723,
+      "mean_mhd_sq": 7.284926395794164,
+      "chi2_gate_2d": 10.596634733096073
+    },
+    {
+      "yaw_offset_deg": 1.0,
+      "rmse": 0.1725633244498654,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 535,
+      "camera_updates": 20,
+      "mean_gamma_u_px": -74.96474719426793,
+      "mean_abs_gamma_u_px": 83.04520334626216,
+      "mean_abs_gamma_v_px": 36.586700797252234,
+      "mean_mhd_sq": 3.505047265290822,
+      "chi2_gate_2d": 10.596634733096073
+    },
+    {
+      "yaw_offset_deg": 2.0,
+      "rmse": 0.17603838625443474,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 537,
+      "camera_updates": 19,
+      "mean_gamma_u_px": -79.95937391466188,
+      "mean_abs_gamma_u_px": 86.27949296323439,
+      "mean_abs_gamma_v_px": 45.4468452189571,
+      "mean_mhd_sq": 3.9194736843548683,
+      "chi2_gate_2d": 10.596634733096073
+    },
+    {
+      "yaw_offset_deg": 4.0,
+      "rmse": 0.16477182778596589,
+      "matches": 502,
+      "ghost_track_frames": 0,
+      "missed_gt_frames": 239,
+      "camera_meas_offered": 2799,
+      "camera_tracks_in_fov": 541,
+      "camera_updates": 15,
+      "mean_gamma_u_px": -68.52400655790858,
+      "mean_abs_gamma_u_px": 99.83457225288178,
+      "mean_abs_gamma_v_px": 37.93864714297352,
+      "mean_mhd_sq": 2.453172767622696,
+      "chi2_gate_2d": 10.596634733096073
+    }
+  ]
+}
