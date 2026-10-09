@@ -4,10 +4,10 @@
 
 ## Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Link repo (fork):
+- Họ tên: Nguyễn Trần Kiên
+- MSSV: 2A202602571
+- Email: nguyentrankien23@gmail.com
+- Link repo (fork): https://github.com/picuisme/K4-L2L3-DAY23-NguyenTranKien-2A202602571-SensorFusion
 - Commit hash nộp (`git rev-parse HEAD`):
 
 ## Tóm tắt kết quả
